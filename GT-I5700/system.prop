@@ -13,9 +13,23 @@ ro.media.dec.vid.wmv.enabled=1
 net.dns1=8.8.4.4
 net.dns2=8.8.8.8
 
-#
-# multitouch support
-#
-ro.product.multi_touch_enabled=true
-ro.product.max_num_touch=2
+net.cdma.datalinkinterface=/dev/ttyCDMA0
+net.cdma.pppd.authtype=require-pap
+net.cdma.pppd.user=user SprintNextel
+gsm.operator.alpha=Sprint
+gsm.operator.numeric=310120
+gsm.operator.iso-country=us
+ro.radio.use-ppp=yes
+gsm.current.phone-type=2
+gsm.sim.operator.alpha=Sprint
+gsm.sim.operator.numeric=310120
+gsm.sim.operator.iso-country=us
+net.cdma.ppp-exit=0
+net.interfaces.defaultroute=cdma
+net.cdma.ppp.interface=ppp0
+ril.cdma.ppp.up=3
+ro.ril.def.preferred.network = 4
+ro.telephony.default_network = 4
+ro.cdma.home.operator.numeric=310120
+ro.cdma.home.operator.alpha=Sprint
 

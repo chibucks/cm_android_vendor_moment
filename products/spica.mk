@@ -95,9 +95,9 @@ PRODUCT_COPY_FILES += \
 # Keys
 #
 PRODUCT_COPY_FILES += \
-    vendor/spica/prebuilt/spica/keys/s3c-keypad-rev0020.kl:system/usr/keylayout/s3c-keypad-rev0020.kl \
+    vendor/spica/prebuilt/spica/keys/s3c-keypad-rev0040.kl:system/usr/keylayout/s3c-keypad-rev0040.kl \
     vendor/spica/prebuilt/spica/keys/sec_headset.kl:system/usr/keylayout/sec_headset.kl \
-    vendor/spica/prebuilt/spica/keys/s3c-keypad-rev0020.kcm.bin:system/usr/keychars/s3c-keypad-rev0020.kcm.bin
+    vendor/spica/prebuilt/spica/keys/s3c-keypad-rev0040.kcm.bin:system/usr/keychars/s3c-keypad-rev0040.kcm.bin
 
 #
 # Sensors, Lights etc
